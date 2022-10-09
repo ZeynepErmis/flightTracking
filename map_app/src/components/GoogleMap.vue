@@ -7,11 +7,6 @@
           {{coordinate.province}} 
          </option>
     </select>
-    <!-- <select class="input-text" @click="getMessage()" v-model="markerLoc.lng" @change="selectFrom($event)">
-      <option>please select one</option>
-      <option v-for="coordinate in Coordinates" :key="coordinate.lng" :value="coordinate.lng">
-        {{coordinate.province}}</option>
-    </select> -->
     <p>TO :</p>
     <select class="input-text" @click="getMessage()" v-model="destinationLoc" @change="selectTo($event)">
       <option>please select one</option>
