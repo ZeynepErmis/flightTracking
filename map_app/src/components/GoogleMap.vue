@@ -13,11 +13,6 @@
       <option v-for="coordinate in Coordinates" :key="coordinate" :value="coordinate">
         {{coordinate.province}}</option>
     </select>
-    <!-- <select class="input-text" @click="getMessage()" v-model="destinationLoc.lng" @change="selectTo($event)">
-      <option>please select one</option>
-      <option v-for="coordinate in Coordinates" :key="coordinate.lng" :value="coordinate.lng">
-        {{coordinate.province}}</option>
-    </select> -->
   </div>
   <br>
   <div @click="moveMarker()" class="np-button">Fly Plane</div> <br>
